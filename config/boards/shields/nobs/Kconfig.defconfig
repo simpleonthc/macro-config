@@ -1,0 +1,6 @@
+if SHIELD_NOBS
+
+config ZMK_KEYBOARD_NAME
+    default "nobs"
+
+endif

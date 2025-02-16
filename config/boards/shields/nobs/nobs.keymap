@@ -1,12 +1,7 @@
-/*
- * Copyright (c) 2022 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
@@ -14,8 +9,7 @@
 
         default_layer {
             bindings = <
-                &kp X
-                &kp Z
+                &bt BT_CLR  &kp KP_N1  &finder_desktop
             >;
         };
     };

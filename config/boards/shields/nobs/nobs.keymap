@@ -9,7 +9,7 @@
 
         default_layer {
             bindings = <
-                &bt BT_CLR  &kp KP_N1  &finder_desktop
+                &bt BT_CLR  &kp KP_N1  &kp KP_N2
             >;
         };
     };
